@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="stopwatch">
+        <h1><span class="ar">AR </span>STOPWATCH</h1>
+        <div class="circle">
+            <span class="time" id="min">00</span><span class="time" id="sec">:00</span><span class="time"
+                id="msec">:00</span>
+        </div>
+
+        <div class="controls">
+            <button class="buttonPlay" id="disabled" onclick="start()">
+                <img
+                    src="https://res.cloudinary.com/https-tinloof-com/image/upload/v1593360448/blog/time-in-js/play-button_opkxmt.svg" />
+            </button>
+            <button onclick="pause()">
+                <img
+                    src="https://res.cloudinary.com/https-tinloof-com/image/upload/v1593360448/blog/time-in-js/pause-button_pinhpy.svg" />
+            </button>
+
+            <button class="buttonReset" onclick="reset()">
+                <img 
+                    src="https://res.cloudinary.com/https-tinloof-com/image/upload/v1593360448/blog/time-in-js/reset-button_mdv6wf.svg" />
+            </button>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>
